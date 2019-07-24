@@ -49,3 +49,4 @@ class Departments:
         cursor = cnx.cursor()
         cursor.execute(insert)
         cnx.commit()
+        cursor.close()

@@ -1,7 +1,0 @@
-import mysql.connector
-import departments
-import classes
-cnx = mysql.connector.connect(user='root', password='root', host='localhost', database='unb')
-
-# departments.Departments(cnx)
-classes.Classes(cnx)

@@ -28,7 +28,7 @@ ___
 
 The website is organized in the structure of a tree:
 
-![Diagram](C:\Users\Boris\Documents\ws-tree.png)
+![Diagram]()
 
 So we must access the root, so we can get the links to the campi pages, then we access the campi pages to get the departments links and so on. The leaves of the tree are the discipline pages and there we can find the useful info. Because there are only 4 campi, the scrape didn't started at the root, it started directly from campi pages.
 

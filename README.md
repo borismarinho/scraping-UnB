@@ -1,6 +1,6 @@
-# web-scraping
+# scraping-UnB
 
-I made this project to teach myself the concepts of web scraping in Python, database manipulation, using git with command line and markdown language as well.
+I made this project to teach myself the concepts of web scraping in Python, database manipulation, using git with command line and markdown language as well besides gathering information that could be useful to students of the university.
 
 The idea is to parse the entire site of the University where I study (Universidade de Brasília) and gather data of the classes that are being offered this semester: campi, departments, disciplines, classes, teachers, classrooms; store this data in a database and make some statistics with this data.
 

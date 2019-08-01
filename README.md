@@ -36,13 +36,22 @@ This give a hint of how to explore the website and how to design the database. O
 
 ## The database
 ___
+At first the database is not normalized because it's more convenient to extract the data according the template of the information, and it looks like that:
 
 ![Database Relational Model](https://i.imgsafe.org/28/282fcc9e33.png)
 
+Since it's not an updating database, it will be easier to gather the information in first place and later execute some SQL scripts to normalize and make the database more efficient.
 
+## The software
+____
+This software is as simple as it could be:
+There are 3 classes and a main function, each class parses a different kind of page and the main function construct one of each class.
 
+* Departments: parses the list of departments (as shown in the image) gatherings its attributes and storing all of them in the database
+![Departments list](https://i.imgsafe.org/28/28b002cbfc.png)
 
-At first the program access the campi pages, then parse all the entries.
+* Disciplines: parses the list of departments (as shown in the image) gatherings its attributes and storing all of them in the database
+![Disciplines list](https://i.imgsafe.org/28/28b058eb28.png)
 
-![Campi](campi_pages)
-
+* Classes: the scraping in this kind of page (as shown in the image) was quite a challenge because the data availabe was not well structured, some of it was in images, and some kind appeared only in some cases, so I've had to consider several edge cases to makes the scraper work well.
+![Classes list](https://i.imgsafe.org/28/28b086842e.png)

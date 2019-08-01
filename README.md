@@ -37,7 +37,7 @@ This give a hint of how to explore the website and how to design the database. O
 ## The database
 ___
 
-![Database Relational Model](https://imgsafe.org/image/282fcc9e33)
+![Database Relational Model](https://i.imgsafe.org/28/282fcc9e33.png)
 
 
 
